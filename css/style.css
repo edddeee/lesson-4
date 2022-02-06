@@ -1,0 +1,59 @@
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,700,900@display=swap);
+@font-face {
+   font-family: "CircularStd";
+   src: url(../fonts/CircularStd-Bold.woff2) format(woff2), url(../fonts/CircularStd-Bold.woff) format(woff);
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: "CircularStd";
+   src: url(../fonts/CircularStd-BookItalic.woff2) format(woff2), url(../fonts/CircularStd-BookItalic.woff) format(woff);
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+}
+body {
+   font-family: "Fira", sans-serif;
+}
+h1 {
+   font-size: 30px;
+   font-weight: 900;
+   text-align: center;
+   text-shadow: 3px 2px 8px rgba(17, 184, 250, 0.712);
+}
+span {
+   color: royalblue;
+}
+.header {
+   color: royalblue;
+   text-decoration: underline;
+}
+h2 {
+   font-size: 25px;
+   font-weight: 700;
+   text-align: center;
+}
+.italic {
+   font-family: "CircularStd";
+   font-weight: 400;
+   font-style: italic;
+   text-align: center;
+   letter-spacing: 2px;
+}
+h3 {
+   font-size: 20px;
+   text-align: center;
+}
+ol {
+   text-indent: 20px;
+   line-height: 1.5;
+}
+.mein-text-img {
+   text-transform: uppercase;
+   word-spacing: 8px;
+}
+.link {
+   color: royalblue;
+}
